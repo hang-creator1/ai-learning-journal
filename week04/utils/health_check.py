@@ -1,3 +1,15 @@
+"""
+utils/health_check.py
+
+环境与依赖健康检查模块。
+提供四个独立可调用的检查函数，可用于项目初始化时快速排查基础环境问题。
+
+用法示例：
+    from utils.health_check import check_env_var, check_json_config
+    print(check_env_var("PATH"))
+    print(check_json_config("config.json", ["api_key", "model"]))
+"""
+
 import os
 import sys
 import json
