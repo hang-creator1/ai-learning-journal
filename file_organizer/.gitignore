@@ -1,0 +1,6 @@
+__pycache__/
+venv/
+.venv/
+organize.log
+summary.txt
+test_downloads/

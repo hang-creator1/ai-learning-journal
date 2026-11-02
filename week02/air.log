@@ -1,0 +1,28 @@
+2026-09-09 15:08:17,543 urllib3.connectionpool [DEBUG] Starting new HTTPS connection (1): air-quality-api.open-meteo.com:443
+2026-09-09 15:08:19,908 urllib3.connectionpool [DEBUG] https://air-quality-api.open-meteo.com:443 "GET /v1/air-quality?latitude=39.9&longitude=116.4&current=us_aqi%2Cpm2_5%2C HTTP/1.1" 200 None
+2026-09-09 15:08:19,909 __main__ [DEBUG] 实际请求的完整地址: https://air-quality-api.open-meteo.com/v1/air-quality?latitude=39.9&longitude=116.4&current=us_aqi%2Cpm2_5%2C
+2026-09-09 15:08:19,910 __main__ [ERROR] 出现了错误,关于变量的
+Traceback (most recent call last):
+  File "d:\python\week02\part_06.py", line 52, in aqi_level
+    us_aqi,pm2_5,learn = data
+    ^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+2026-09-09 15:08:19,913 urllib3.connectionpool [DEBUG] Starting new HTTPS connection (1): air-quality-api.open-meteo.com:443
+2026-09-09 15:08:22,372 urllib3.connectionpool [DEBUG] https://air-quality-api.open-meteo.com:443 "GET /v1/air-quality?latitude=31.2&longitude=121.5&current=us_aqi%2Cpm2_5%2C HTTP/1.1" 200 None
+2026-09-09 15:08:22,372 __main__ [DEBUG] 实际请求的完整地址: https://air-quality-api.open-meteo.com/v1/air-quality?latitude=31.2&longitude=121.5&current=us_aqi%2Cpm2_5%2C
+2026-09-09 15:08:22,373 __main__ [ERROR] 出现了错误,关于变量的
+Traceback (most recent call last):
+  File "d:\python\week02\part_06.py", line 52, in aqi_level
+    us_aqi,pm2_5,learn = data
+    ^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+2026-09-09 15:08:22,375 urllib3.connectionpool [DEBUG] Starting new HTTPS connection (1): air-quality-api.open-meteo.com:443
+2026-09-09 15:08:25,563 urllib3.connectionpool [DEBUG] https://air-quality-api.open-meteo.com:443 "GET /v1/air-quality?latitude=23.1&longitude=113.3&current=us_aqi%2Cpm2_5%2C HTTP/1.1" 200 None
+2026-09-09 15:08:25,564 __main__ [DEBUG] 实际请求的完整地址: https://air-quality-api.open-meteo.com/v1/air-quality?latitude=23.1&longitude=113.3&current=us_aqi%2Cpm2_5%2C
+2026-09-09 15:08:25,565 __main__ [ERROR] 出现了错误,关于变量的
+Traceback (most recent call last):
+  File "d:\python\week02\part_06.py", line 52, in aqi_level
+    us_aqi,pm2_5,learn = data
+    ^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+2026-09-09 15:08:25,566 __main__ [INFO] 参数是:[('北京', 39.9, 116.4), ('上海', 31.2, 121.5), ('广州', 23.1, 113.3)]
